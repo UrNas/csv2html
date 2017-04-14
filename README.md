@@ -1,4 +1,4 @@
-* required python >= 3.0
+* required python >= 3.6
 
 how to use it
 ```commandline
