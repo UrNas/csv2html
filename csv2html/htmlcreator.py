@@ -21,7 +21,7 @@ def get_data(csv_file):
     return csv_headers, csv_data
 
 
-template = env.get_template('first.html')
+template = env.get_template('main.html')
 
 
 def create_output_html(file_name):
