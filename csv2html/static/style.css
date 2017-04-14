@@ -1,0 +1,27 @@
+/*style tables*/
+body {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid purple;
+}
+tr th {
+    font-family: 'Rock Salt', cursive;
+    background: rgba(0, 0, 0, .1);
+    padding: 10px;
+}
+tr td{
+    width: 30%;
+    text-align: center;
+    line-height: 1.5;
+    padding: 5px 0;
+}
+tr:nth-last-of-type(odd) {
+    background: whitesmoke;
+}
+.row:hover {
+    background: lightblue;
+}
